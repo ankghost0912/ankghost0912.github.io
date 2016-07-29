@@ -14,6 +14,12 @@ tagline: Grad Student at Clemson University.
 # Flags below are optional
 #
 
+# Links for the feed, and archive of posts
+pages_list:
+  About: '/about'
+  Archive: '/archive'
+  Feed: '/atom.xml'
+
 # Use default layout for posts
 defaults:
   -
@@ -25,13 +31,13 @@ defaults:
       
       
 # Includes an icon in the footer for each username you enter
-footer-links:
+header-links:
   dribbble:
   email: ankitkulshrestha0912@gmail.com
   facebook:
   flickr:
   github: ankghost0912
-  instagram:
+  instagram:ankit.kulsh
   linkedin:
   pinterest:
   rss: # just type anything here for a working RSS icon
