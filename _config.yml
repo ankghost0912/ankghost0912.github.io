@@ -31,20 +31,15 @@ defaults:
       
       
 # Includes an icon in the footer for each username you enter
-header-links:
-  dribbble:
-  email: ankitkulshrestha0912@gmail.com
-  facebook:
-  flickr:
-  github: ankghost0912
-  instagram:
-  linkedin:
-  pinterest:
-  rss: # just type anything here for a working RSS icon
-  twitter: 0912Ankit
-  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
-  youtube: # channel/<your_long_string> or user/<user-name>
-  googleplus: # anything in your profile username that comes after plus.google.com/
+
+  
+email: ankitkulshrestha0912@gmail.com
+github: ankghost0912
+linkedin:
+rss: # just type anything here for a working RSS icon
+twitter: 0912Ankit
+stackoverflow: "users/4972681/ankit-kulshrestha" # your stackoverflow profile, e.g. "users/50476/bart-kiers"
+
 
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts

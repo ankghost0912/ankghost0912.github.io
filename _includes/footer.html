@@ -1,0 +1,24 @@
+{% if site.twitter %} 
+<a href="https://twitter.com/{{ site.twitter }}">
+<i class="fa fa-twitter"></i>
+ </a>
+{% endif %}
+
+{% if site.github %}
+<a href="https://github.com/{{site.github}}">
+  <i class="fa fa-github"></i>
+</a>
+{% endif %}
+
+{% if site.email %}
+<a href="mailto:{{ site.footer-links.email }}">
+  <i class="fa fa-envelope"></i>
+</a>
+{% endif %}
+
+
+{% if site.stackoverflow %}
+<a href="https://stackoverflow.com/{{site.stackoverflow}}">
+  <i class="fa fa-stack-overflow"></i>
+</a>
+{% endif %}
