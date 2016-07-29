@@ -3,8 +3,6 @@ layout: post
 title: Hello World!
 ---
 
-# Hello World!
-
 When you start to learn a computer programming language the first thing that every book teaches you is the obligatory *Hello World* program. I thought it would be good idea to begin the blog with a hello world post, but it's certainly not obligatory
 
 ### What I'll be talking about:
