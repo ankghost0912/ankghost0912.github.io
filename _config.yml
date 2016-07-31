@@ -13,7 +13,10 @@ tagline: "Enchanted by nature's engineering"
 #
 # Flags below are optional
 #
-
+# author name and email
+author:
+  name: Ankit Kulshrestha
+  email: "ankitkulshrestha0912@gmail.com"
 # Links for the feed, and archive of posts
 pages_list:
   About: '/about'
