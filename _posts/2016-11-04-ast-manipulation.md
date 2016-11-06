@@ -1,4 +1,4 @@
-#Self modifying code using Python (AST Manipulation)
+# Self modifying code using Python (AST Manipulation)
 
 A few days ago, I was working on a project, when I realized that in order to achieve the goals of the project, the code needed to be self modifying. 
 
@@ -28,7 +28,7 @@ Module:
 
 It becomes quite clear that this simple statement is represented by a very expressive syntax tree.
 
-###What can I do with AST?
+### What can I do with AST?
 
 Ah, now we're asking the right questions. Python introduced the `ast` module just to enable curious programmers like you and me to explore and play with the python grammar structures. 
 
@@ -38,7 +38,7 @@ Python is an object oriented language. That means that everyting in python is an
 Most of the information for playing with `ast` is in the [documentation](https://docs.python.org/3.5/library/ast.html). However, it is not well explained so I will attempt to give an explanation of the most common uses of the module. 
 
 
-###Traversing and Modifying the AST
+### Traversing and Modifying the AST
 `Ast` provides two major set of classes:
 
 * `ast.NodeVisitor`: This is a class used for traversing an AST.
@@ -85,7 +85,7 @@ for node in ast.walk(x):
         print 'BinOp:', node.BinOp
 ~~~ 
 
-####Modifying the AST for fun (and profit):
+#### Modifying the AST for fun (and profit):
 
 It's not so much fun as to just see the underlying AST structure. What if we could change it? Well `ast` provides even that functionality to us as well, using `ast.NodeTransformer`. 
 
